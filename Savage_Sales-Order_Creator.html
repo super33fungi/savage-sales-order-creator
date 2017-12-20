@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>    
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Savage Sales Order Creator</title>
+        <meta name="Savage Sales Order Creator" content="An interactive Sales Order Creator for Savage Enterprises.">
+        <style>
+            .product {
+                height: 350px;
+                width: 200px;
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: contain; 
+                display: inline-block;
+                margin: 10px 10px 10px 10px;
+                cursor: pointer;
+                text-align: center;
+            }
+            #product-input {
+                position: relative;
+                bottom: -220px;
+            }
+            #product-area {
+                width: 60%;
+                display: inline-block;
+            }
+            #cart-area {
+                height: 90vh;
+                width:35%;
+                display: inline-block;
+                position: absolute;
+            }
+        </style>
+        </head>
+        <body style="background-color: gray;">
+			<h1>Welcome to Savage Sales Order Creator</h1>
+                <div id="product-area">
+                    <div class="simpleCart_shelfItem product" style="background-image: url(https://cdn.shopify.com/s/files/1/2301/4289/products/bond_270x_crop_bottom.png); background-color: darkgray;">
+                    <h2 class="item_name"> Bond </h2>
+                    <p id="product-input">    
+                        $<input type="text" value="14.00" class="item_price"><br>&nbsp;
+                        <input type="text" value="1" class="item_Quantity"><br>&nbsp;
+                    </p>
+                </div>
+                <div class="simpleCart_shelfItem product" style="background-image: url(https://cdn.shopify.com/s/files/1/2301/4289/products/CUNDERWOOD_270x_crop_bottom.png); background-color: darkgray;">
+                    <h2 class="item_name"> C. Underwood </h2>
+                    <p id="product-input">    
+                        $<input type="text" value="14.00" class="item_price"><br>&nbsp;
+                        <input type="text" value="1" class="item_Quantity"><br>&nbsp;
+                        <a class="item_add" href="javascript:;"> Add Product </a>
+                    </p>
+                </div>
+                <div class="simpleCart_shelfItem product" style="background-image: url(https://cdn.shopify.com/s/files/1/2301/4289/products/CENA_270x_crop_bottom.png); background-color: darkgray;">
+                    <h2 class="item_name"> Cena </h2>
+                    <p id="product-input">    
+                        $<input type="text" value="14.00" class="item_price"><br>&nbsp;
+                        <input type="text" value="1" class="item_Quantity"><br>&nbsp;
+                        <a class="item_add" href="javascript:;"> Add Product </a>
+                    </p>
+                </div>
+                 <div class="simpleCart_shelfItem product" style="background-image: url(https://cdn.shopify.com/s/files/1/2301/4289/products/JACKMAN_270x_crop_bottom.png); background-color: darkgray;">
+                    <h2 class="item_name"> Jackman </h2>
+                    <p id="product-input">    
+                        $<input type="text" value="14.00" class="item_price"><br>&nbsp;
+                        <input type="text" value="1" class="item_Quantity"><br>&nbsp;
+                        <a class="item_add" href="javascript:;"> Add Product </a>
+                    </p>
+                </div>
+                 <div class="simpleCart_shelfItem product" style="background-image: url(https://cdn.shopify.com/s/files/1/2301/4289/products/JB_270x_crop_bottom.png); background-color: darkgray;">
+                    <h2 class="item_name"> JB </h2>
+                    <p id="product-input">    
+                        $<input type="text" value="14.00" class="item_price"><br>&nbsp;
+                        <input type="text" value="1" class="item_Quantity"><br>&nbsp;
+                        <a class="item_add" href="javascript:;"> Add Product </a>
+                    </p>
+                </div>
+                 <div class="simpleCart_shelfItem product" style="background-image: url(https://cdn.shopify.com/s/files/1/2301/4289/products/PINKMAN_270x_crop_bottom.png); background-color: darkgray;">
+                    <h2 class="item_name"> Pinkman </h2>
+                    <p id="product-input">    
+                        $<input type="text" value="14.00" class="item_price"><br>&nbsp;
+                        <input type="text" value="1" class="item_Quantity"><br>&nbsp;
+                        <a class="item_add" href="javascript:;"> Add Product </a>
+                    </p>
+                </div>
+                 <div class="simpleCart_shelfItem product" style="background-image: url(https://cdn.shopify.com/s/files/1/2301/4289/products/QUINN_270x_crop_bottom.png); background-color: darkgray;">
+                    <h2 class="item_name"> Quinn </h2>
+                    <p id="product-input">    
+                        $<input type="text" value="14.00" class="item_price"><br>&nbsp;
+                        <input type="text" value="1" class="item_Quantity"><br>&nbsp;
+                        <a class="item_add" href="javascript:;"> Add Product </a>
+                    </p>
+                </div>
+                 <div class="simpleCart_shelfItem product" style="background-image: url(https://cdn.shopify.com/s/files/1/2301/4289/products/FUNDERWOOD_270x_crop_bottom.png); background-color: darkgray;">
+                    <h2 class="item_name"> F. Underwood </h2>
+                    <p id="product-input">    
+                        $<input type="text" value="14.00" class="item_price"><br>&nbsp;
+                        <input type="text" value="1" class="item_Quantity"><br>&nbsp;
+                        <a class="item_add" href="javascript:;"> Add Product </a>
+                    </p>
+                </div>
+                 <div class="simpleCart_shelfItem product" style="background-image: url(https://cdn.shopify.com/s/files/1/2301/4289/products/WHITE_270x_crop_bottom.png); background-color: darkgray;">
+                    <h2 class="item_name"> White </h2>
+                    <p id="product-input">    
+                        $<input type="text" value="14.00" class="item_price"><br>&nbsp;
+                        <input type="text" value="1" class="item_Quantity"><br>&nbsp;
+                        <a class="item_add" href="javascript:;"> Add Product </a>
+                    </p>
+                </div>
+            </div>
+            <div id="cart-area" style="background-color: aqua">
+                <h2>Added Products</h2>
+            </div>
+        </body>
+</html>
