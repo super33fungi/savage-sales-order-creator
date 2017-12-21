@@ -1,5 +1,6 @@
 #frm{
   padding: 20px;
+  padding-right: 60px;
   border: 2px solid;
   display: inline-block;
   height: 200px;
@@ -8,13 +9,78 @@
   text-align: center;
 }
 
+#product-list {
+  list-style-type: none;
+}
+
+#product-button {
+  width:200px;
+  text-align: center;
+  margin-left: 20px;
+}
+
 #cart{
   margin-top: 30px;
   padding: 20px;
   border: 2px solid;
-  background: lightgreen;
+  background: #F5F5F5;
+  height: 90vh;
+  width:35%;
+  display: inline-block;
+  position: absolute;
 }
 
 th, td, tr{
   border: 1px solid;
+}
+
+.product {
+  height: 350px;
+  width: 200px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain; 
+  display: inline-block;
+  margin: 10px 10px 10px 10px;
+  cursor: pointer;
+  text-align: center;
+}
+#product-input {
+	position: relative;
+	bottom: -220px;
+}
+#product-area {
+  width: 60%;
+  display: inline-block;
+}
+
+#product-button {
+  position: relative;
+  right: 20px;
+  bottom: -250px;
+}
+
+#sticky {
+  padding: 0.5ex;
+  width: 400px;
+  background-color: #333;
+  color: #fff;
+  font-size: 1.5em;
+  border-radius: 0.5ex;
+}
+
+#sticky.stick {
+  margin-top: 0 !important;
+  position: fixed;
+  top: 0;
+  z-index: 10000;
+  border-radius: 0 0 0.5em 0.5em;
+}
+
+body {
+  margin: 1em;
+}
+
+p {
+  margin: 1em auto;
 }
