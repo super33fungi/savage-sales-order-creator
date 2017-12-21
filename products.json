@@ -1,0 +1,22 @@
+{"products":[
+{
+  "id":11111,
+  "name":"Yoda",
+  "price":12.99
+  },
+{
+  "id":22222,
+  "name":"Darth Maul",
+  "price":13.99
+  },
+{
+  "id":33333,
+  "name":"R2-D2",
+  "price":14.99
+  },
+{
+  "id":44444,
+  "name":"Obi-Wan",
+  "price":12.49
+  }]
+}
