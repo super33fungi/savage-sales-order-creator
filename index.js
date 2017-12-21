@@ -1,12 +1,11 @@
+//Shopping Cart
 
 inames = []
 iqtyp = []
 iprice = []
-productname = ""
 
-function addItem(){
+function addItem(productname){
   
-  productname = document.getElementById('pname').innerHTML
   inames.push(productname)
   iqtyp.push(parseInt(document.getElementById('pqty').value))
   iprice.push(parseInt(document.getElementById('price').value))
@@ -32,7 +31,6 @@ function displayCart(){
   document.getElementById('cart').innerHTML = cartdata
   
 }
-
 
 function delElement(a){
   inames.splice(a, 1);
