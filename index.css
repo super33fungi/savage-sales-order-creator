@@ -77,8 +77,22 @@ th, td, tr{
   border-radius: 0 0 0.5em 0.5em;
 }
 
+#info-box {
+  font-size: 1.5em;
+  color: #fff;
+  background-color: #333;
+  padding: 0.5ex;
+  width: 400px;
+  border-radius: 0.5ex;
+  position: absolute;
+  top: 60px;
+  right: 40px;
+}
+
 body {
   margin: 1em;
+  min-width: 1000px;
+  overflow: auto;
 }
 
 p {
