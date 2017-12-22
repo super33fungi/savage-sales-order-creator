@@ -8,4 +8,4 @@ As the end-user is collecting the necessary information quantity, price, etc. th
 
 Afterwards the information is compiled into a document and sent to for review, approval, and entry into accounting.
 
-(Future Phase: Review and approval process will be part of the app, and entry into accounting will be automated)
+*(Future Phase: Review and approval process will be part of the app, and entry into accounting will be automated)*
