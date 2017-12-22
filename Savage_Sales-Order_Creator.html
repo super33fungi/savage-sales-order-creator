@@ -44,14 +44,20 @@
 		</script>
 		<link rel="stylesheet" href="index.css">
         </head>
-        <body style="background-color: gray;">
-		<div style="position: absolute;"><h1>Welcome to Savage Sales Order Creator</h1><div>
+        <body style="background-color: gray; min-width: 1140px; position: relative;">
+		<div><h1>Welcome to Savage Sales Order Creator</h1></div>
 			<div id="sticky-anchor"></div>
 				<div id="sticky">
-					<label>Set product price&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</label>
+					<label>Set product price:&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</label>
 						<input id='price' type='number'><br>
-					<label>Set product Quantity</label>
+					<label>Set product Quantity:</label>
 						<input id='pqty' type='number'>			
+				</div>
+				<div id="info-box">
+					<label>Client:&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</label>
+						<input type="text"><br>
+					<label>Sales Rep:</label>
+						<input type="text">
 				</div>
                 <div id="product-area">
                     <div class="simpleCart_shelfItem product" style="background-image: url(https://cdn.shopify.com/s/files/1/2301/4289/products/bond_270x_crop_bottom.png); background-color: darkgray;" onclick="addItem('Bond')">
